@@ -29,6 +29,8 @@
 - Automated Psyment Repair
 - ML based STP rules
 - Bot for Operator to ease their repair process by automasting Standard Operasting Procedures from vasrious sources 
+- AI in check scanning & proecssing [Check scanning & processing](/references/check-processing-ai)
+- AI 
 
 ## References
 [duties of teller](references/teller.md)
