@@ -1,8 +1,7 @@
 # GIDS-Banking-Innovation
 
 ## Introduction (Ethos)
-👤 **Name**: [Your Name]
-🏢 **Current Company**: [Your Current Company]
+ **Name**,  **Current Company**: [Your Current Company] and 
 👨‍💼 **Roles and Responsibilities**: [Brief description of your roles and responsibilities]
 
 ### Initiatives/Themes I am Part of (Citations & Achievements)
@@ -14,7 +13,7 @@
 - Explanation of how stable and robust applications are built
 - **Case Study**: Bank Operations & Common issues/pain points (Pathos - Engaging)
 - Explaining Agenda of Session:
-  - How apps are built
+  - How apps are built stable anf reliable with industry patterns
   - NFR followed
   - Operator app
   - Techniques to improve efficiency using technology
@@ -27,5 +26,10 @@
 ## Deck Walk-through
 - Sequence of slides to walk through with slides in appendix
 - Lessons Learnt & Observations (with remediation plan)
+
+## ML and GenAI spplicability in Tresury Banking
+- Automated Psyment Repair
+- ML based STP rules
+- Bot for Operator to ease their repair process by automasting Standard Operasting Procedures from vasrious sources 
 
 ## References
