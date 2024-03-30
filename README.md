@@ -1,11 +1,8 @@
 # GIDS-Banking-Innovation
 
 ## Introduction (Ethos)
- **Name**,  **Current Company**: [Your Current Company] and 
-👨‍💼 **Roles and Responsibilities**: [Brief description of your roles and responsibilities]
-
-### Initiatives/Themes I am Part of (Citations & Achievements)
-- [List of initiatives/themes and corresponding achievements]
+ - Introduction about me, Wells Fargo, LOB/Business Unit
+ - List of initiatives/themes and corresponding achievements in Wells Fargo
 
 ## Setting the Scene
 ### Context Setting
@@ -13,10 +10,11 @@
 - Explanation of how stable and robust applications are built
 - **Case Study**: Bank Operations & Common issues/pain points (Pathos - Engaging)
 - Explaining Agenda of Session:
-  - How apps are built stable anf reliable with industry patterns
-  - NFR followed
+  - How apps are built stable and reliable with industry patterns    
+  - Exlain the business requirement of scaling, How to test or measure to quantify (NFR Techniques)     
   - Operator app
   - Techniques to improve efficiency using technology
+[Detailed Information](Slides-Walkthrough-Narration.md)
 
 ## Action & Responsibility
 ### (Logos) : Factual Information
