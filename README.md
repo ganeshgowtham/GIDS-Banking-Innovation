@@ -31,3 +31,4 @@
 - Bot for Operator to ease their repair process by automasting Standard Operasting Procedures from vasrious sources 
 
 ## References
+[duties of teller](references/teller.md)

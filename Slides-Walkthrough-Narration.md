@@ -29,3 +29,5 @@
         -- Arch which explains data ingestion pipeline
         -- Process of chuncking, embeddings with LLM, ingestion to VectorDB, Similarity Search
         -- ChainLit, Langchain
+ ### Applicability of AI
+    -- [AI in Check processing & scanning](references/check-processing-ai)       
