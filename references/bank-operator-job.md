@@ -61,3 +61,5 @@ Overall, bank office employees involved in payment processing and case managemen
 - Initiating a reversal for a processing error.
 - Communicating with law enforcement regarding suspected fraud cases.
 
+**Duplicated Payment**
+
