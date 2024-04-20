@@ -34,3 +34,46 @@
 
 ## References
 [duties of teller](references/teller.md)
+
+
+<details>
+  <summary>Select an option</summary>
+  <p>
+
+    <select id="options" onchange="showSection()">
+      <option value="">Select an option</option>
+      <option value="section1">Section 1</option>
+      <option value="section2">Section 2</option>
+      <option value="section3">Section 3</option>
+    </select>
+
+    <div id="section1" style="display:none;">
+      This is Section 1 content.
+    </div>
+
+    <div id="section2" style="display:none;">
+      This is Section 2 content.
+    </div>
+
+    <div id="section3" style="display:none;">
+      This is Section 3 content.
+    </div>
+
+    <script>
+      function showSection() {
+        var selectBox = document.getElementById("options");
+        var selectedValue = selectBox.options[selectBox.selectedIndex].value;
+        var sections = document.querySelectorAll("[id^='section']");
+        
+        sections.forEach(function(section) {
+          section.style.display = "none";
+        });
+
+        if (selectedValue !== "") {
+          document.getElementById(selectedValue).style.display = "block";
+        }
+      }
+    </script>
+
+  </p>
+</details>
