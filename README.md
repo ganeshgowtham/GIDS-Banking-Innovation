@@ -77,3 +77,38 @@
 
   </p>
 </details>
+
+
+## Search Functionality Example
+
+<input type="text" id="searchInput" onkeyup="searchFunction()" placeholder="Search for keywords..">
+
+<div id="searchResults">
+  <!-- Results will be displayed here -->
+</div>
+
+<script>
+function searchFunction() {
+  // Get input value and convert to lowercase for case-insensitive search
+  var input = document.getElementById("searchInput").value.toLowerCase();
+  
+  // Get all paragraphs to search through
+  var paragraphs = document.querySelectorAll("p");
+  
+  // Container to store matching paragraphs
+  var matchingParagraphs = [];
+  
+  // Loop through each paragraph to check for matches
+  paragraphs.forEach(function(paragraph) {
+    // Convert paragraph text to lowercase for case-insensitive search
+    var text = paragraph.innerText.toLowerCase();
+    if (text.includes(input)) {
+      matchingParagraphs.push(paragraph.outerHTML);
+    }
+  });
+  
+  // Display matching paragraphs
+  var searchResults = document.getElementById("searchResults");
+  searchResults.innerHTML = matchingParagraphs.join("");
+}
+</script>
