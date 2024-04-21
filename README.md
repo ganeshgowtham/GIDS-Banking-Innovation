@@ -77,38 +77,31 @@
 
   </p>
 </details>
+## Search and Redirect Example
 
-
-## Search Functionality Example
-
-<input type="text" id="searchInput" onkeyup="searchFunction()" placeholder="Search for keywords..">
+<input type="text" id="searchInput" placeholder="Search for content.." onkeyup="searchAndRedirect(event)">
+<button onclick="clearSearch()">Clear</button>
 
 <div id="searchResults">
-  <!-- Results will be displayed here -->
+  <!-- Search results will be displayed here -->
 </div>
 
+<details> <p>
 <script>
-function searchFunction() {
-  // Get input value and convert to lowercase for case-insensitive search
-  var input = document.getElementById("searchInput").value.toLowerCase();
-  
-  // Get all paragraphs to search through
-  var paragraphs = document.querySelectorAll("p");
-  
-  // Container to store matching paragraphs
-  var matchingParagraphs = [];
-  
-  // Loop through each paragraph to check for matches
-  paragraphs.forEach(function(paragraph) {
-    // Convert paragraph text to lowercase for case-insensitive search
-    var text = paragraph.innerText.toLowerCase();
-    if (text.includes(input)) {
-      matchingParagraphs.push(paragraph.outerHTML);
-    }
-  });
-  
-  // Display matching paragraphs
-  var searchResults = document.getElementById("searchResults");
-  searchResults.innerHTML = matchingParagraphs.join("");
+function searchAndRedirect(event) {
+  if (event.keyCode === 13) { // Check if Enter key is pressed
+    var searchQuery = document.getElementById("searchInput").value.toLowerCase();
+    // Perform search and redirection logic here
+    // Example: Assume child pages are stored in a directory named 'pages'
+    var pageUrl = 'pages/' + searchQuery + '.md'; // Construct URL based on search query
+    window.location.href = pageUrl; // Redirect to the page
+  }
+}
+
+function clearSearch() {
+  document.getElementById("searchInput").value = "";
+  document.getElementById("searchResults").innerHTML = ""; // Clear search results
 }
 </script>
+</p>
+</details>
